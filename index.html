@@ -6,12 +6,15 @@
 		<link rel="icon" href="Imgs/favicon.ico">
         <link rel="stylesheet" href="style.css">
 	</head>
-	<body>
+	<body id="randomNumber" onload="getRandomInt(1, 100)">
 		<h1>Guess my number!</h1>
-		<h3>The number's value can be anything in between 1 and 100.</h3>
-		<div><input type="text" id="number"></div>
+		<h3 id="output"></h3>
+		<h2>The number can be anything in between 1 and 100.</h2>
+		<div><input type="number" id="number"></div>
 		<br>
-		<div><button onclick="guess()">Did I get it right?</button></div>
+		<div><button onclick="getPrompt()">Did I get it right?</button></div>
+		<h3 id="ran"></h3>
+		<h3 id="button"></h3>
 		<h2 id="prompt"></h2>
 		</div>
 		<script src="main.js"></script>
