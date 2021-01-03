@@ -3,6 +3,17 @@ body {
 	margin: 0;
 }
 
+button {
+	background-color: #CAFAFE;
+	border: none;
+	border-radius: 4px;
+	color: #1f2833;
+}
+
+div {
+	justify-content: center;
+}
+
 h1 {
 	color: #CAFAFE;
 	text-align: center;
@@ -16,6 +27,12 @@ h2 {
 h3 {
 	color: white;
 	text-align: center;
+}
+
+input {
+	border: none;
+	border-radius: 4px;
+	color: #1f2833;
 }
 
 p {
